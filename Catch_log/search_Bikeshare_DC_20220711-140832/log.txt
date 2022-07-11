@@ -1,0 +1,9 @@
+2022-07-11 14:08:32,895 args : Namespace(continuous_col=['temp', 'atemp', 'humidity', 'windspeed', 'casual', 'registered'], core_size=10000, coreset=0, cuda=-1, data='Bikeshare_DC', dataset_path='data/Bikeshare_DC.csv', discrete_col=['season', 'holiday', 'workingday', 'weather'], eval_method='sub_rae', exp_log_dir=WindowsPath('Catch_log/search_Bikeshare_DC_20220711-140832'), psm=0, target_col='count', task_type='regression')
+2022-07-11 14:08:34,501 base_score: [0.9876357  0.98459494 0.98883359 0.98233638 0.98071452], base_score_mean: 0.9848230263728546, search_data_shape: (10886, 11)
+2022-07-11 14:08:34,502 controller structure£ºController(
+  (embedding): Embedding(38, 8)
+  (otp_rnn): LSTMCell(160, 300)
+  (ops_rnn): LSTMCell(300, 300)
+  (opt_decoder): Linear(in_features=300, out_features=300, bias=True)
+  (ops_decoder): Linear(in_features=300, out_features=300, bias=True)
+)

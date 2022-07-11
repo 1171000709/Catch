@@ -1,0 +1,1 @@
+2022-07-11 14:15:49,620 args : Namespace(continuous_col=[], core_size=10000, coreset=1, cuda=-1, data='covtype', dataset_path='data/covtype.csv', discrete_col=[], eval_method='f1_score', exp_log_dir=WindowsPath('Catch_log/search_covtype_20220711-141549'), f1_average='micro', psm=0, target_col='s55', task_type='classifier')
